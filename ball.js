@@ -15,10 +15,12 @@ class Ball{
 	get X() {
     return this.x;
   }
+	//Update velocity
 	updateV(Hx, Hy){
 		this.vx += Hx;
 		this.vy += Hy;	
 	}
+	//Update ball coordinates
 	update(){
 		this.x += this.vx;
 		this.y += this.vy;	
