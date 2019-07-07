@@ -119,7 +119,7 @@ window.onload = function(){
 				//Update coordinates
 				ball.update();
 
-				//Drag coefficent
+				//Drag coefficient
 				if(ball.vx > 0){ball.vx -= 0.0075;}
 				if(ball.vy > 0){ball.vy -= 0.0075;}
 				if(ball.vx < 0){ball.vx += 0.0075;}
