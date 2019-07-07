@@ -48,9 +48,9 @@ class Ball{
 	ctx.strokeStyle = 'black';
 	ctx.fillStyle = "red";
 	ctx.fillRect(W-10,H-40,40,40);
-    ctx.beginPath();
-    ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-    ctx.stroke();
+    	ctx.beginPath();
+    	ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+    	ctx.stroke();
 	ctx.fill();
   	}
 };
