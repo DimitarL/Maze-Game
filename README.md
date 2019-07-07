@@ -1,2 +1,2 @@
 # Maze-Game
-Maze game for both desktop and mobile browsers.
+Simple Maze Game for both desktop and mobile bowsers.
