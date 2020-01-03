@@ -15,6 +15,9 @@ class Ball{
 	get X() {
     return this.x;
   }
+	get Y() {
+    return this.y;
+  }
 	//Update velocity
 	updateV(Hx, Hy){
 		this.vx += Hx;
@@ -25,10 +28,6 @@ class Ball{
 		this.x += this.vx;
 		this.y += this.vy;	
 	}
-
-  get Y() {
-    return this.y;
-  }
 
   get Radius() {
     return this.radius;
